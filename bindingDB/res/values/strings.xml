@@ -14,11 +14,27 @@
     </string-array>
     
     <string-array name="descriptions">
-        <item>description 1</item>
-        <item>description 1</item>
-        <item>description 1</item>
-        <item>description 1</item>
-        <item>description 1</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
     </string-array>
+    
+    <string-array name="ic">
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+        <item>N/A</item>
+    </string-array>
+    
+    <string-array name="smile">
+        <item>Cn1c(OCc2cccc(F)c2)nc2n(C)c(=O)n(C)c(=O)c12</item>
+        <item>Cn1c(OCc2cccc(F)c2)nc2n(C)c(=O)n(C)c(=O)c12</item>
+        <item>Cn1c(OCc2cccc(F)c2)nc2n(C)c(=O)n(C)c(=O)c12</item>
+        <item>Cn1c(OCc2cccc(F)c2)nc2n(C)c(=O)n(C)c(=O)c12</item>
+        <item>Cn1c(OCc2cccc(F)c2)nc2n(C)c(=O)n(C)c(=O)c12</item>
+    </string-array>    
 
 </resources>

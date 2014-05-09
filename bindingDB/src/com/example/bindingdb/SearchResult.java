@@ -35,12 +35,16 @@ class SingleRow
 	String title;
 	String description;
 	int image;
+	String ic;
+	String smile;
 	
-	SingleRow(String Title, String Description, int Image)
+	SingleRow(String Title, String Description, int Image, String IC, String SMILE)
 	{
 		this.title = Title;
 		this.description = Description;
 		this.image = Image;
+		this.ic = IC;
+		this.smile = SMILE;
 	}
 }
 class BarAdapter extends BaseAdapter
@@ -57,10 +61,12 @@ class BarAdapter extends BaseAdapter
 		String[] titles = res.getStringArray(R.array.titles);
 		String[] descriptions = res.getStringArray(R.array.descriptions);
 		int[] images = {R.drawable.caf,R.drawable.caf,R.drawable.caf,R.drawable.caf,R.drawable.caf};
+		String[] ic = res.getStringArray(R.array.ic);
+		String[] smile = res.getStringArray(R.array.smile);
 		
 		for(int i=0; i<5; i++)
 		{
-			list.add(new SingleRow(titles[i], descriptions[i], images[i]));
+			list.add(new SingleRow(titles[i], descriptions[i], images[i], ic[i], smile[i]));
 		}
 	}
 	
@@ -90,12 +96,16 @@ class BarAdapter extends BaseAdapter
 		TextView title = (TextView)row.findViewById(R.id.title);
 		TextView description = (TextView)row.findViewById(R.id.description);
 		ImageView image = (ImageView)row.findViewById(R.id.imageView);
+		TextView ic = (TextView)row.findViewById(R.id.IC50);
+		TextView smile = (TextView)row.findViewById(R.id.SMILES);
 		
 		SingleRow temp = list.get(position);
 		
 		title.setText(temp.title);
 		description.setText(temp.description);
 		image.setImageResource(temp.image);
+		ic.setText(temp.ic);
+		smile.setText(temp.smile);
 		
 		return row;
 	}
