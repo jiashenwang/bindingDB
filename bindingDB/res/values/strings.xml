@@ -4,5 +4,21 @@
     <string name="app_name">bindingDB</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string-array name="titles">
+        <item>title 1</item>
+        <item>title 2</item>
+        <item>title 3</item>
+        <item>title 4</item>
+        <item>title 5</item>
+    </string-array>
+    
+    <string-array name="descriptions">
+        <item>description 1</item>
+        <item>description 1</item>
+        <item>description 1</item>
+        <item>description 1</item>
+        <item>description 1</item>
+    </string-array>
 
 </resources>
