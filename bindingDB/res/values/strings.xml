@@ -3,6 +3,11 @@
 
     <string name="app_name">bindingDB</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="search_protein">Search By Protein:</string>
+    <string name="protein_name_hint">Name of Protein</string>
+    <string name="uniprot_hint">UNIPROT</string>
+    <string name="search_compound">Search By Compound:</string>
+    <string name="protein_search_btn">Search</string>
+    
 
 </resources>

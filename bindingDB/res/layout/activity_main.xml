@@ -9,8 +9,45 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/protein_search_header" 
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/search_protein" />
+    
+    <EditText
+        android:id="@+id/protein_name_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/protein_search_header"
+        android:layout_marginTop="10dp"
+        android:hint="@string/protein_name_hint" />
+    
+    <EditText
+        android:id="@+id/uniprot_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/protein_name_search"
+        android:layout_marginTop="10dp"
+        android:hint="@string/uniprot_hint" />
+    
+    <Button 
+        android:id="@+id/protein_search_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/uniprot_search"
+        android:layout_marginTop="5dp"
+        android:text="@string/protein_search_btn" />
+    
+    <TextView
+        android:id="@+id/compound_search_header" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/protein_search_btn"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/search_compound" />
 
 </RelativeLayout>
